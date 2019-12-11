@@ -168,6 +168,7 @@ input {
 .styleGuide {
     width: 30rem;
     margin-left: 200px; 
+    padding: 2.5rem;
 }
 /* ------- End of Style Guide -------- */
 
@@ -202,31 +203,27 @@ input {
 }
 /* -------- End of Comment/Approval Box-2------- */
 
-.letterHead {
-    width: 56.25rem;
-    
-}
 
-.paper {
+.img--letterhead {
     width: 24rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;   
+    padding-top: 4rem;
+    padding-bottom: 4rem;   
 
 }
 
-.busCardFront {
+.img--busCardFront {
     width: 16rem;
     margin-left: .5rem;
     padding-bottom: 25rem;
 }
 
-.busCardBack {
+.img--busCardBack {
     width: 15rem;
     padding-bottom: 25rem;
 }
 /* ------- End of Letterhead ----------- */
 
-.thanks {
+.img__thankyou {
     width: 15rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -245,7 +242,7 @@ footer h3 {
     font-size: 3rem;
     margin-bottom:0;
 }
-/* ----- Enf of Footer------- */
+/* ----- End of Footer------- */
 
 /* Screen Sizes 500px and Up */
 @media (min-width: 500px) {
