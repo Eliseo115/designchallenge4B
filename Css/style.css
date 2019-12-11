@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;;
+    margin: 0;
+    background: #eee;
+    height: auto;
+}
+
+main {
+    max-width: 900px;
+    margin: auto ;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.2), -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+    border: 1px #ccc solid;
+    display: inline-block;
+    margin: 2rem 0 0 ;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333;
+}
+
+.btn:hover {
+    background: #f4f4f4;
+}
+
+.landing {
+    background: #fff;
+  }
+
+.landing_text {
+    display: flex;
+    flex: 0 1 40vw;
+    height:50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.landing_text h2 {
+    color: #888
+}
+
+.landing_image{
+    background:url(/images/Katie_Compass\ -Cropped.png);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    flex: 0 1 60vw;
+    padding-top: 20px;
+    margin: 0 ;
+    background-color:black;
+}
+
+/* -----------End of Landing Area----------- */
+
+.header {
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+
+.header h2 {
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+/* ------ End of "Our Work" header section */
+.moodboard {
+    width: 81vw;
+    height: 36rem;
+    display: flex;
+}
+
+.moodboard__img--poe {
+   height: 31.7rem;
+   padding-top: 1.5rem;
+}
+
+.moodboard__images-aside {
+    width: 32.25rem;
+    height: 36rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.moodboard__images--grad-caps {
+    width: 24rem;
+    margin-left: rem;
+    padding: 4px;
+}
+
+.moodboard__images--neon {
+    width: 32.25rem;
+    height: 36rem;
+    padding-top: 1.5rem;
+}
+
+.moodboard__images--brain {
+    width: 14rem;
+    padding: 4px;
+}
+
+.moodboard__images--nodes {
+    width: 14.65rem;
+    padding: 4px;
+}
+
+
+
+
+/* --------- End of Moodboard-------------  */
+
+.container {
+    margin-left: 20px;
+}
+
+.print_approval {
+    height: 40vh;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-box {
+    background-color: gainsboro;
+}
+
+form {
+    background-color: gainsboro;
+}
+
+.container {
+    background-color: gainsboro;
+}
+
+input {
+    background-color: gainsboro;
+}
+/* -------- End of Approval/Comments Box-1 -------  */
+
+.styleGuide {
+    width: 30rem;
+    margin-left: 200px; 
+}
+/* ------- End of Style Guide -------- */
+
+.container {
+    margin-left: 1.25rem;
+}
+
+.print_approval {
+    height: 40vh;
+    font-size: 1.25rem;
+    border: 1px solid black;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-box {
+    background-color: gainsboro;
+}
+
+form {
+    background-color: gainsboro;
+}
+
+.container {
+    background-color: gainsboro;
+}
+
+input {
+    background-color: gainsboro;
+}
+/* -------- End of Comment/Approval Box-2------- */
+
+.letterHead {
+    width: 56.25rem;
+    
+}
+
+.paper {
+    width: 24rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;   
+
+}
+
+.busCardFront {
+    width: 16rem;
+    margin-left: .5rem;
+    padding-bottom: 25rem;
+}
+
+.busCardBack {
+    width: 15rem;
+    padding-bottom: 25rem;
+}
+/* ------- End of Letterhead ----------- */
+
+.thanks {
+    width: 15rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 3rem;
+}
+/* ------ End of Thank You Card --------- */
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+}
+
+footer h3 {
+    font-size: 3rem;
+    margin-bottom:0;
+}
+/* ----- Enf of Footer------- */
+
+/* Screen Sizes 500px and Up */
+@media (min-width: 500px) {
+    .landing {display: flex;
+    height: 100%;
+    }
+
+    .landing_text {
+        height: 100vh;
+    }
+
+    .landing_image {
+        height: 100vh;
+    }
+
+}
+  
+
+
+    
+
+
+
+  
+
